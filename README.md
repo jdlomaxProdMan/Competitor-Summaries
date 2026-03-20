@@ -11,3 +11,5 @@ Include the restored Header with the Fizyr logo, the 'Compiled dd Month YYYY' da
 the Company Overview, Financials, Product Portfolio, Implementations table, 
 and the final Fizyr Comparison section. 
 Provide the response as a raw code block so I can copy the HTML directly.
+Provide HTML with navigation page to each on Sharepoint.
+Claude Cowork process to convert to pdf and email to remote sales
