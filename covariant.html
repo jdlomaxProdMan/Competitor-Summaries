@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covariant | Competitive Intelligence Report 2026</title>
+    <style>
+        /* CORE STYLES */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #fff; }
+        .container { width: 85%; margin: auto; overflow: hidden; padding: 20px; }
+        
+        /* HEADER */
+        header { border-bottom: 3px solid #000; padding: 20px 0; margin-bottom: 30px; }
+        header .container { display: flex; justify-content: space-between; align-items: center; padding: 0; }
+        header .logo { height: 50px; }
+        header nav { text-align: right; font-weight: bold; text-transform: uppercase; }
+        header .date { font-size: 0.85em; opacity: 0.7; font-weight: normal; text-transform: none; }
+
+        /* CALLOUTS */
+        .callouts { display: flex; justify-content: space-around; margin: 30px 0; gap: 20px; }
+        .callout-box { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; border-top: 4px solid #00b4d8; }
+        .callout-box h3 { margin-top: 0; color: #0077b6; font-size: 1.1em; }
+
+        /* TYPOGRAPHY */
+        h1 { border-left: 6px solid #00b4d8; padding-left: 15px; margin-bottom: 10px; font-size: 2em; }
+        h2 { color: #0077b6; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-top: 40px; }
+        .intro-text { font-size: 1.15em; color: #555; margin-bottom: 20px; }
+
+        /* PRODUCT GRID & CHART */
+        .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 30px 0; align-items: start; }
+        
+        .bar-chart { 
+            display: flex; align-items: flex-end; height: 200px; gap: 20px; 
+            background: #f1f3f5; padding: 40px 20px 20px; border-radius: 8px; position: relative; 
+        }
+        .bar { flex: 1; background: #00b4d8; position: relative; min-width: 50px; }
+        .bar.featured { background: #0077b6; }
+        .bar::before { 
+            content: attr(data-amount); position: absolute; top: -25px; left: 50%; 
+            transform: translateX( -50%); font-weight: bold; font-size: 0.85em; color: #333; 
+        }
+        .bar::after { 
+            content: attr(data-label); position: absolute; bottom: -25px; left: 50%; 
+            transform: translateX(-50%); font-size: 0.8em; color: #666; white-space: nowrap;
+        }
+
+        /* TABLES */
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table th, table td { padding: 12px; border: 1px solid #eee; text-align: left; }
+        table th { background-color: #f8f9fa; color: #333; font-weight: bold; border-bottom: 2px solid #00b4d8; }
+
+        /* FOOTER */
+        footer { background: #1a1a1a; color: #ccc; text-align: center; padding: 30px 0; margin-top: 50px; font-size: 0.9em; }
+        footer a { color: #00b4d8; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="https://fizyr.com" target="_blank">
+                <img src="fizyr-black.jpg" alt="Fizyr Logo" class="logo">
+            </a>
+            <nav>
+                <span>Standard Competitive Report</span><br>
+                <span class="date">Compiled 20 March 2026</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="callouts">
+            <div class="callout-box">
+                <h3>Covariant Brain</h3>
+                <p>A universal AI platform enabling robots to handle millions of unique SKUs with general-purpose intelligence.</p>
+            </div>
+            <div class="callout-box">
+                <h3>RFM-1 Foundation Model</h3>
+                <p>A Robotics Foundation Model (RFM) that provides human-like reasoning and physical scene prediction.</p>
+            </div>
+            <div class="callout-box">
+                <h3>Amazon Strategic Deal</h3>
+                <p>Strategic licensing agreement and talent transfer to Amazon (2024), validating the core technology's value.</p>
+            </div>
+        </section>
+
+        <section class="typography-showcase">
+            <h1>Covariant Overview</h1>
+            <p class="intro-text">
+                Founded in 2017 by AI pioneers from UC Berkeley and OpenAI, Covariant specializes in AI software that allows robots to see, think, and act in complex warehouse environments.
+            </p>
+            <ul>
+                <li><strong>Headquarters:</strong> Emeryville, California, USA</li>
+                <li><strong>Website:</strong> <a href="https://covariant.ai" target="_blank">covariant.ai</a></li>
+                <li><strong>Leadership:</strong> Ted Stinson (CEO), Pieter Abbeel (Co-founder)</li>
+                <li><strong>Status:</strong> Independent operation following a major 2024 licensing deal with Amazon.</li>
+            </ul>
+
+            <h2>Financials & Funding</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Lead Investors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Series C (Extension)</td>
+                        <td>April 2023</td>
+                        <td>$75M</td>
+                        <td>Radical Ventures, Index Ventures</td>
+                    </tr>
+                    <tr>
+                        <td>Series C</td>
+                        <td>July 2021</td>
+                        <td>$80M</td>
+                        <td>Index Ventures</td>
+                    </tr>
+                    <tr>
+                        <td>Series B</td>
+                        <td>May 2020</td>
+                        <td>$40M</td>
+                        <td>Index Ventures</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="content-grid">
+            <div class="text-content">
+                <h2>Product Portfolio</h2>
+                <h4>The Covariant Brain</h4>
+                <p>The core AI software platform that processes visual data and generates motion commands for high-variability picking and placing.</p>
+                <h4>RFM-1</h4>
+                <p>A multimodal foundation model that bridges natural language instructions with visual observations to generate robot actions.</p>
+                <h4>Robotic Solutions</h4>
+                <p>Packaged solutions for goods-to-person picking, kitting, induction, and depalletization.</p>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Investment Trajectory (USD)</h3>
+                <div class="bar-chart">
+                    <div class="bar" style="height: 15%;" data-label="Seed/A" data-amount="$27M"></div>
+                    <div class="bar" style="height: 35%;" data-label="Series B" data-amount="$67M"></div>
+                    <div class="bar featured" style="height: 95%;" data-label="Series C+" data-amount="$222M"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>Key Implementations & Partners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Partner/Customer</th>
+                        <th>Application</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Amazon</strong></td>
+                        <td>Non-exclusive licensing of robotic foundation models.</td>
+                        <td>Strategic Partner</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Knapp</strong></td>
+                        <td>Strategic partnership for AI-powered logistics automation.</td>
+                        <td>Global Partner</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Radial</strong></td>
+                        <td>Order fulfillment and automated piece-picking.</td>
+                        <td>Live Deployment</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bastian Solutions</strong></td>
+                        <td>Integration of the Covariant Brain into systems for Tier 1 retailers.</td>
+                        <td>Active</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="comparison">
+            <h2>Fizyr Comparison</h2>
+            <p>Strategic analysis of Covariant's foundation model approach vs. Fizyr's precision-engineered Vision OS:</p>
+            <ul>
+                <li><strong>Technology Scope:</strong> Covariant is moving toward **General Purpose AI (RFM-1)** that handles reasoning and prediction. Fizyr maintains a laser focus on **Precision Vision OS**, optimizing for the highest possible pick-success rates in industrial logistics.</li>
+                <li><strong>Business Model:</strong> Covariant has pivoted toward high-level technology licensing (e.g., Amazon). Fizyr remains committed to being the **neutral "Brain" of choice** for global system integrators.</li>
+            </ul>
+            <div class="callout-box" style="background-color: #fff; border: 1px solid #ddd; border-left: 5px solid #000; text-align: left;">
+                <p><strong>The Fizyr Edge:</strong> While Covariant explores the future of robotic reasoning, Fizyr provides the most stable and production-ready Vision AI specifically hardened for the ultra-high throughput demands of modern parcel sortation and e-commerce fulfillment.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Competitive Intelligence | <a href="https://fizyr.com">fizyr.com</a> | <a href="https://covariant.ai">covariant.ai</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

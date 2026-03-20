@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Vision AI | Competitive Intelligence Report 2026</title>
+    <style>
+        /* CORE STYLES */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #fff; }
+        .container { width: 85%; margin: auto; overflow: hidden; padding: 20px; }
+        
+        /* HEADER */
+        header { border-bottom: 3px solid #000; padding: 20px 0; margin-bottom: 30px; }
+        header .container { display: flex; justify-content: space-between; align-items: center; padding: 0; }
+        header .logo { height: 50px; }
+        header nav { text-align: right; font-weight: bold; text-transform: uppercase; }
+        header .date { font-size: 0.85em; opacity: 0.7; font-weight: normal; text-transform: none; }
+
+        /* CALLOUTS */
+        .callouts { display: flex; justify-content: space-around; margin: 30px 0; gap: 20px; }
+        .callout-box { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; border-top: 4px solid #00b4d8; }
+        .callout-box h3 { margin-top: 0; color: #0077b6; font-size: 1.1em; }
+
+        /* TYPOGRAPHY */
+        h1 { border-left: 6px solid #00b4d8; padding-left: 15px; margin-bottom: 10px; font-size: 2em; }
+        h2 { color: #0077b6; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-top: 40px; }
+        .intro-text { font-size: 1.15em; color: #555; margin-bottom: 20px; }
+
+        /* PRODUCT GRID & CHART */
+        .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 30px 0; align-items: start; }
+        
+        .bar-chart { 
+            display: flex; align-items: flex-end; height: 200px; gap: 20px; 
+            background: #f1f3f5; padding: 40px 20px 20px; border-radius: 8px; position: relative; 
+        }
+        .bar { flex: 1; background: #00b4d8; position: relative; min-width: 50px; }
+        .bar.featured { background: #0077b6; }
+        .bar::before { 
+            content: attr(data-amount); position: absolute; top: -25px; left: 50%; 
+            transform: translateX(-50%); font-weight: bold; font-size: 0.85em; color: #333; 
+        }
+        .bar::after { 
+            content: attr(data-label); position: absolute; bottom: -25px; left: 50%; 
+            transform: translateX(-50%); font-size: 0.8em; color: #666; white-space: nowrap;
+        }
+
+        /* TABLES */
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table th, table td { padding: 12px; border: 1px solid #eee; text-align: left; }
+        table th { background-color: #f8f9fa; color: #333; font-weight: bold; border-bottom: 2px solid #00b4d8; }
+
+        /* FOOTER */
+        footer { background: #1a1a1a; color: #ccc; text-align: center; padding: 30px 0; margin-top: 50px; font-size: 0.9em; }
+        footer a { color: #00b4d8; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="https://fizyr.com" target="_blank">
+                <img src="fizyr-black.jpg" alt="Fizyr Logo" class="logo">
+            </a>
+            <nav>
+                <span>Standard Competitive Report</span><br>
+                <span class="date">Compiled 20 March 2026</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="callouts">
+            <div class="callout-box">
+                <h3>Neural-Sync™ Architecture</h3>
+                <p>Proprietary parallel processing that reduces inference latency to sub-2ms for high-speed sortation.</p>
+            </div>
+            <div class="callout-box">
+                <h3>Auto-Labeling Engine</h3>
+                <p>AI-driven synthetic data generation that reduces model training time by 85% compared to manual tagging.</p>
+            </div>
+            <div class="callout-box">
+                <h3>Cross-Platform OS</h3>
+                <p>A unified vision operating system compatible with 45+ industrial camera brands and 12 robot OEMs.</p>
+            </div>
+        </section>
+
+        <section class="typography-showcase">
+            <h1>Sample Vision AI Overview</h1>
+            <p class="intro-text">
+                Sample Vision AI is a fictitious market leader in high-performance computer vision, specializing in autonomous quality control and robotic guidance for the "smart factory" era.
+            </p>
+            <ul>
+                <li><strong>Headquarters:</strong> Tech Valley, CA, USA</li>
+                <li><strong>Website:</strong> <a href="#">samplevision.ai</a></li>
+                <li><strong>Leadership:</strong> Jane Smith (CEO), Dr. Alan Turing Jr. (CTO)</li>
+                <li><strong>Market Position:</strong> Top 5 provider for mid-market logistics automation.</li>
+            </ul>
+
+            <h2>Financials & Funding</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Lead Investors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Series B</td>
+                        <td>October 2025</td>
+                        <td>$45M</td>
+                        <td>Quantum Ventures</td>
+                    </tr>
+                    <tr>
+                        <td>Series A</td>
+                        <td>March 2023</td>
+                        <td>$12M</td>
+                        <td>Silicon Growth Partners</td>
+                    </tr>
+                    <tr>
+                        <td>Seed</td>
+                        <td>January 2021</td>
+                        <td>$3M</td>
+                        <td>Incubator Alpha</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="content-grid">
+            <div class="text-content">
+                <h2>Product Portfolio</h2>
+                <h4>SampleSight 3000</h4>
+                <p>High-resolution 3D vision sensor with built-in GPU for real-time item segmentation in cluttered bins.</p>
+                <h4>VisionControl Hub</h4>
+                <p>A no-code software dashboard allowing warehouse managers to monitor "brain health" and detection accuracy across multiple lines.</p>
+                <h4>Edge-Node Micro</h4>
+                <p>A compact, fanless compute unit designed for mounting directly onto robotic arms for localized processing.</p>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Investment Trajectory (USD)</h3>
+                <div class="bar-chart">
+                    <div class="bar" style="height: 15%;" data-label="2021" data-amount="$3M"></div>
+                    <div class="bar" style="height: 40%;" data-label="2023" data-amount="$15M"></div>
+                    <div class="bar featured" style="height: 95%;" data-label="2025" data-amount="$60M"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>Key Implementations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer/Partner</th>
+                        <th>Application</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Global LogiCorp</strong></td>
+                        <td>Multi-SKU depalletizing in 12 regional hubs.</td>
+                        <td>Live Deployment</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AutoPart Express</strong></td>
+                        <td>Real-time defect detection for brake assembly lines.</td>
+                        <td>Pilot Phase</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RoboBuild Systems</strong></td>
+                        <td>Strategic integration into standard G2P robotic cells.</td>
+                        <td>Active Partner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="comparison">
+            <h2>Fizyr Comparison</h2>
+            <p>Strategic analysis of how Sample Vision AI stacks up against Fizyr's core offerings:</p>
+            <ul>
+                <li><strong>Reliability:</strong> While Sample Vision AI offers fast setup, Fizyr’s Vision OS provides higher reliability (99.9%) in peak-season logistics where SKU variety is unpredictable.</li>
+                <li><strong>Integration:</strong> Sample Vision AI pushes its own hardware-software bundle; Fizyr remains the superior choice for integrators seeking a purely hardware-agnostic software partner.</li>
+            </ul>
+            <div class="callout-box" style="background-color: #fff; border: 1px solid #ddd; border-left: 5px solid #000; text-align: left;">
+                <p><strong>The Fizyr Edge:</strong> Fizyr’s deep focus on e-commerce fulfillment and parcel induction makes it more resilient to the "unknown unknowns" of global supply chains compared to Sample Vision's manufacturing-centric approach.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Competitive Intelligence | <a href="https://fizyr.com">fizyr.com</a> | <a href="#">samplevision.ai</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

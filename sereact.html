@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sereact.AI | Competitive Intelligence Report 2026</title>
+    <style>
+        /* CORE STYLES */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #fff; }
+        .container { width: 85%; margin: auto; overflow: hidden; padding: 20px; }
+        
+        /* HEADER */
+        header { border-bottom: 3px solid #000; padding: 20px 0; margin-bottom: 30px; }
+        header .container { display: flex; justify-content: space-between; align-items: center; padding: 0; }
+        header .logo { height: 50px; }
+        header nav { text-align: right; font-weight: bold; text-transform: uppercase; }
+        header .date { font-size: 0.85em; opacity: 0.7; font-weight: normal; text-transform: none; }
+
+        /* CALLOUTS */
+        .callouts { display: flex; justify-content: space-around; margin: 30px 0; gap: 20px; }
+        .callout-box { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; border-top: 4px solid #00b4d8; }
+        .callout-box h3 { margin-top: 0; color: #0077b6; font-size: 1.1em; }
+
+        /* TYPOGRAPHY */
+        h1 { border-left: 6px solid #00b4d8; padding-left: 15px; margin-bottom: 10px; font-size: 2em; }
+        h2 { color: #0077b6; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-top: 40px; }
+        .intro-text { font-size: 1.15em; color: #555; margin-bottom: 20px; }
+
+        /* PRODUCT GRID & CHART */
+        .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 30px 0; align-items: start; }
+        
+        .bar-chart { 
+            display: flex; align-items: flex-end; height: 200px; gap: 20px; 
+            background: #f1f3f5; padding: 40px 20px 20px; border-radius: 8px; position: relative; 
+        }
+        .bar { flex: 1; background: #00b4d8; position: relative; min-width: 50px; }
+        .bar.featured { background: #0077b6; }
+        .bar::before { 
+            content: attr(data-amount); position: absolute; top: -25px; left: 50%; 
+            transform: translateX(-50%); font-weight: bold; font-size: 0.85em; color: #333; 
+        }
+        .bar::after { 
+            content: attr(data-label); position: absolute; bottom: -25px; left: 50%; 
+            transform: translateX(-50%); font-size: 0.8em; color: #666; white-space: nowrap;
+        }
+
+        /* TABLES */
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table th, table td { padding: 12px; border: 1px solid #eee; text-align: left; }
+        table th { background-color: #f8f9fa; color: #333; font-weight: bold; border-bottom: 2px solid #00b4d8; }
+
+        /* FOOTER */
+        footer { background: #1a1a1a; color: #ccc; text-align: center; padding: 30px 0; margin-top: 50px; font-size: 0.9em; }
+        footer a { color: #00b4d8; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="https://fizyr.com" target="_blank">
+                <img src="fizyr-black.jpg" alt="Fizyr Logo" class="logo">
+            </a>
+            <nav>
+                <span>Standard Competitive Report</span><br>
+                <span class="date">Compiled 20 March 2026</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="callouts">
+            <div class="callout-box">
+                <h3>VLA "Cortex" Brain</h3>
+                <p>Proprietary Vision-Language-Action models that allow robots to "reason" through complex tasks [<a href="https://sereact.ai/technology" target="_blank">cite: 2.2</a>].</p>
+            </div>
+            <div class="callout-box">
+                <h3>Zero-Shot Picking</h3>
+                <p>Enables autonomous handling of unseen items without any prior manual training or CAD data [<a href="https://sereact.ai/products/cortex" target="_blank">cite: 2.3</a>].</p>
+            </div>
+            <div class="callout-box">
+                <h3>Hardware Agnostic</h3>
+                <p>Universal software layer compatible with any industrial arm or next-gen humanoid platform [<a href="https://sereact.ai/company" target="_blank">cite: 1.2</a>].</p>
+            </div>
+        </section>
+
+        <section class="typography-showcase">
+            <h1>Sereact.AI Overview</h1>
+            <p class="intro-text">
+                Founded in 2021 as a spin-off from the University of Stuttgart, Sereact is a leader in "Physical AI," specializing in the integration of Large Language Models (LLMs) with robotic execution.
+            </p>
+            <ul>
+                <li><strong>Headquarters:</strong> Stuttgart, Germany | Mason, Ohio (USA)</li>
+                <li><strong>Website:</strong> <a href="https://sereact.ai" target="_blank">sereact.ai</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/sereact/" target="_blank">Sereact Profile</a></li>
+                <li><strong>Leadership:</strong> Ralf Gulde (CEO), Marc Tuscher (CTO)</li>
+            </ul>
+
+            <h2>Financials & Funding</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Lead Investors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Series A</td>
+                        <td>Jan 2025</td>
+                        <td>$26M (€25M)</td>
+                        <td>Creandum</td>
+                    </tr>
+                    <tr>
+                        <td>Seed</td>
+                        <td>2023</td>
+                        <td>$5M</td>
+                        <td>Point Nine, Air Street Capital</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="content-grid">
+            <div class="text-content">
+                <h2>Product Portfolio</h2>
+                <h4>Cortex VLA</h4>
+                <p>The core intelligence platform using "mixture-of-experts" for perception, allowing robots to handle high-variability warehouse environments.</p>
+                <h4>Sereact Lens</h4>
+                <p>A real-time vision verification system using 3D point clouds to detect anomalies and errors with 99.9% accuracy [<a href="https://sereact.ai/products/lens" target="_blank">cite: 2.4</a>].</p>
+                <h4>PickGPT</h4>
+                <p>A transformer-based interface allowing operators to use natural language to set constraints or modify robot behavior on the fly [<a href="https://sereact.ai/products/pickgpt" target="_blank">cite: 2.1</a>].</p>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Investment Trajectory (USD)</h3>
+                <div class="bar-chart">
+                    <div class="bar" style="height: 10%;" data-label="2021" data-amount="$0M"></div>
+                    <div class="bar" style="height: 25%;" data-label="2023" data-amount="$5M"></div>
+                    <div class="bar featured" style="height: 95%;" data-label="2025" data-amount="$31M"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>Key Implementations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer/Partner</th>
+                        <th>Application</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Kardex</strong></td>
+                        <td>Integration for automated storage and retrieval systems (ASRS).</td>
+                        <td>Strategic Partner</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daimler Truck</strong></td>
+                        <td>Autonomous assembly kitting and complex parts handling.</td>
+                        <td>Live Deployment</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AWL</strong></td>
+                        <td>Global partnership for scaling industrial robotics applications.</td>
+                        <td>Active</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="comparison">
+            <h2>Fizyr Comparison</h2>
+            <p>Strategic analysis of how Sereact.AI stacks up against Fizyr's core offerings:</p>
+            <ul>
+                <li><strong>Technical Approach:</strong> Sereact leverages VLA (Vision-Language-Action) models for reasoning-heavy tasks. Fizyr provides a production-hardened Vision OS optimized for maximum throughput and reliability in high-speed logistics.</li>
+                <li><strong>User Interaction:</strong> Sereact prioritizes natural language interaction (PickGPT). Fizyr focuses on a seamless "Automatic Button" experience for deep integration with global systems.</li>
+            </ul>
+            <div class="callout-box" style="background-color: #fff; border: 1px solid #ddd; border-left: 5px solid #000; text-align: left;">
+                <p><strong>The Fizyr Edge:</strong> For high-speed logistics and automated piece-picking that requires extreme uptime and established integrator workflows, Fizyr remains the industry benchmark for "plug-and-play" vision intelligence.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Competitive Intelligence | <a href="https://fizyr.com">fizyr.com</a> | <a href="https://sereact.ai">sereact.ai</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
